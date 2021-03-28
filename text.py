@@ -17,5 +17,5 @@ def countword ():
         for word in splitted:
             if revword(word) == count_word:
                 count += 1                
-    return print(count+1)
+    return (count+1)
 
